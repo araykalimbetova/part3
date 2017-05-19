@@ -101,41 +101,75 @@ img{
 		padding:30px 0;
 		border-bottom:1px solid #eee;
 	}
-	.logo{
-		float:left;
-		font-size:1.375em;
-		font-family: 'Roboto Condensed', sans-serif;
+		.logo{
+			float:left;
+			font-size:1.375em;
+			font-family: 'Roboto Condensed', sans-serif;
+		}
+		.contakt-basket{
+			float:right;
+		}
+		
+		.contakt-basket p{
+			float:left;
+			font-size:0.75em;
+			font-weight:600;
+		}
+		.contakt-basket p img{
+			vertical-align:middle;
+			margin-right:7px;
+		}
+		.header-basket{
+			border:1px solid #eee;
+			padding:10px 25px;
+			margin-left:25px;
+		}
+		.header-phone{
+			padding-top:10px ;
+		}
+		.header-basket a{
+			text-transform:uppercase;
+			color:#7e7f84;
+			text-decoration:none;
+			margin-left:35px;
+		}
+		.header-basket a:hover{
+			color:#f45a40;
+		}
+	.header-bottom{
+		padding:15px 0;
 	}
-	.contakt-basket{
-		float:right;
-	}
-	
-	.contakt-basket p{
-		float:left;
-		font-size:0.75em;
-		font-weight:600;
-	}
-	.contakt-basket p img{
-		vertical-align:middle;
-		margin-right:7px;
-	}
-	.header-basket{
-		border:1px solid #eee;
-		padding:10px 25px;
-		margin-left:25px;
-	}
-	.header-phone{
-		padding-top:10px ;
-	}
-	.header-basket a{
-		text-transform:uppercase;
-		color:#7e7f84;
-		text-decoration:none;
-		margin-left:35px;
-	}
-	.header-basket a:hover{
-		color:#f45a40;
-	}
+		.menu{
+			float:left;
+		}
+			.menu li{
+			float:left;
+			text-transform:uppercase;
+			margin-right:35px;
+			font-size:0.875em;
+			}
+			.menu li a{
+			color:#7e7f84;
+			text-decoration:none;
+			}
+			.menu li a:hover{
+			color:#f45a40;
+			}
+		.search-block{
+			float:left;
+			margin-top:-3px;
+		}
+			.search-btn{
+				float:left;
+				margin:4px 5px 0 0;
+			}
+			.search{
+				float:left;
+				font-size:0.875em;
+				color:#7e7f84;
+				border:none;
+				line-height:1.4;
+			}
 
 
 
