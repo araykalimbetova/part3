@@ -92,4 +92,68 @@ img{
     content: "";
     display: table;
 }
-/* --------------- /базовые настройки ---------*/
+/* --------------- /базовые настройки --------0-*/
+.center-block-main{
+	max-width:1170px;
+	margin:0 auto;
+}
+	.header-top{
+		padding:30px 0;
+		border-bottom:1px solid #eee;
+	}
+	.logo{
+		float:left;
+		font-size:1.375em;
+		font-family: 'Roboto Condensed', sans-serif;
+	}
+	.contakt-basket{
+		float:right;
+	}
+	
+	.contakt-basket p{
+		float:left;
+		font-size:0.75em;
+		font-weight:600;
+	}
+	.contakt-basket p img{
+		vertical-align:middle;
+		margin-right:7px;
+	}
+	.header-basket{
+		border:1px solid #eee;
+		padding:10px 25px;
+		margin-left:25px;
+	}
+	.header-phone{
+		padding-top:10px ;
+	}
+	.header-basket a{
+		text-transform:uppercase;
+		color:#7e7f84;
+		text-decoration:none;
+		margin-left:35px;
+	}
+	.header-basket a:hover{
+		color:#f45a40;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
