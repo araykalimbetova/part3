@@ -4,6 +4,9 @@
 <meta charset="utf-8"> 
 <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed" rel="stylesheet"> 
 <link rel="stylesheet" type="text/css" href="style.css" />
+
+<link rel="stylesheet" href="css/unslider.css">
+<link rel="stylesheet" href="css/unslider-dots.css">
 <title>Company name - home page</title>
 </head>
 
@@ -21,7 +24,7 @@
 				</p>
 			</div>
 		</div>
-		<div class="header-bottom">
+		<div class="header-bottom clearfix">
 			<nav>
 				<ul class="menu">
 					<li><a href="#">HOME</a></li>
@@ -42,5 +45,20 @@
 		</div>
 	</div>
 </header>
+<div class="my-slider">
+	<ul>
+		<li>My slide</li>
+		<li>Another slide</li>
+		<li>My last slide</li>
+	</ul>
+</div>
+
+<script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="js/unslider-min.js"></script>
+<script>
+		jQuery(document).ready(function($) {
+			$('.my-slider').unslider();
+		});
+</script>
 </body>
 </html>
