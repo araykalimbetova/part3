@@ -200,6 +200,29 @@ img{
 		position:relative;
 		top:-50px;
 	}
+.block3main{
+	
+}
+	.block3main article{
+	width:31.6%;
+	float:left;
+	margin-left:2.6%
+	}
+	.block3main article:first-child{
+		margin-left:0;
+	}
+	.block3main img{
+		display:block;
+		margin:0 auto 20px 0;
+	}
+	.block3main h2{
+		font-family: 'Roboto Condensed', sans-serif;
+		margin-bottom:20px;
+		font-size:1.375em;
+	}
+	.block3main p{
+		font-size:0.875em;
+	}
 
 
 
