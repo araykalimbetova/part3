@@ -45,11 +45,23 @@
 		</div>
 	</div>
 </header>
-<div class="my-slider">
+<div class="my-slider center-block-main">
 	<ul>
-		<li>My slide</li>
-		<li>Another slide</li>
-		<li>My last slide</li>
+		<li>
+			<h2>RIGHT IS PINK. <br>LEFT IS BLUE</h2>
+			<p>Inspired by Brasil’s bold colors and matching up to football’s on-pitch<br> playmakers, these kicks are ready to stand out</p>
+			<img src="images/slide1.jpg" alt="" />
+		</li>
+		<li>
+			<h2>RIGHT IS PINK. <br>LEFT IS BLUE</h2>
+			<p>Inspired by Brasil’s bold colors and matching up to football’s on-pitch<br> playmakers, these kicks are ready to stand out</p>
+			<img src="images/slide1.jpg" alt="" />
+		</li>
+		<li>
+			<h2>RIGHT IS PINK. <br>LEFT IS BLUE</h2>
+			<p>Inspired by Brasil’s bold colors and matching up to football’s on-pitch<br> playmakers, these kicks are ready to stand out</p>
+			<img src="images/slide1.jpg" alt="" />
+		</li>
 	</ul>
 </div>
 
@@ -57,7 +69,10 @@
 <script src="js/unslider-min.js"></script>
 <script>
 		jQuery(document).ready(function($) {
-			$('.my-slider').unslider();
+			$('.my-slider').unslider({
+				autoplay:true,
+				arrows:false
+			});
 		});
 </script>
 </body>

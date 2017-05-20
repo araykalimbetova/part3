@@ -170,6 +170,36 @@ img{
 				border:none;
 				line-height:1.4;
 			}
+.my-slider{
+}
+	.my-slider ul li{
+		position:relative;
+		color:
+	}
+	.my-slider ul li {
+		position:relative;
+		color:#f45a40;
+	}
+	.my-slider ul li h2{
+		position:absolute;
+		top:210px;
+		left:35px;
+		font-size:3.70625em;
+		font-weight:600;
+		line-height:1.1;
+	}
+	.my-slider ul li p{
+		position:absolute;
+		top:345px;
+		left:35px;
+		font-size:0.875em;
+	}
+	.unslider-nav{
+		max-width:1170px;
+		margin:0 auto;
+		position:relative;
+		top:-50px;
+	}
 
 
 
