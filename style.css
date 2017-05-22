@@ -230,6 +230,9 @@ img{
     font-size: 1.375em;
     margin-bottom: 40px;
 }
+.block4-main{
+	margin-bottom:60px;
+}
 .block4-main article{
 	float:left;
 	max-width:23%;
@@ -284,6 +287,42 @@ img{
 }
 .basket2{
 	float:right;
+}
+.about{
+	margin-bottom:60px;
+}
+.about article{
+	float:left;
+	width:60%;
+	margin-right:5%;
+}
+.about article h2{
+	font-size:1.375em;
+	font-weight:600;
+	margin-bottom:30px;
+	color:#67686d;
+}
+.about article p{
+	font-size:0.875em;
+	margin-bottom:25px;
+	font-style:italic;
+}
+.about .map{
+	float:right;
+	width:35%;
+}
+.mapin{
+	position:relative;
+	padding-bottom:75%;
+	height:0;
+	overflow:hidden;
+}
+.mapin iframe{
+	position:absolute;
+	top:0;
+	left:0;
+	height:100%;
+	width:100%;
 }
 
 
