@@ -324,13 +324,39 @@ img{
 	height:100%;
 	width:100%;
 }
-
-
-
-
-
-
-
+.subscribe{
+	background:#f45a40;
+	color:#fff;
+	padding:30px 0;
+}
+	.subscribe h2{
+	float:left;
+	font-size:1.325em;
+	text-transform:uppercase;
+	margin-top:5px;
+}
+	.subscribe-form{
+		float:right;
+}
+	.email-input{
+		float:left;
+		text-transform:uppercase;
+		font-size:0.875em;
+		padding:7px 20px;
+		width:200px;
+		border:none;
+}
+	.submit-input{
+		text-transform:uppercase;
+		background:#ff674f;
+		float:left;
+		margin-left:20px;
+		color:#fff;
+		padding:7px 20px;
+		border:none;
+		cursor:pointer;
+		font-size:0.875em;
+	}
 
 
 
