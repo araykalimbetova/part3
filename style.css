@@ -236,7 +236,7 @@ img{
 .block4-main article{
 	float:left;
 	max-width:23%;
-	margin-left:2.56%;
+	margin-left:2.5%;
 }
 .block4-main article:first-child{
 	margin-left:0;
@@ -356,8 +356,88 @@ img{
 		border:none;
 		cursor:pointer;
 		font-size:0.875em;
-	}
-
+}
+.ftr{
+	background:#2a2d34;
+	padding:40px 0;
+}
+.ftr h2{
+	color:#fff;
+	font-size:1.325em;
+	font-family: 'Roboto Condensed', sans-serif;
+	text-transform:uppercase;
+	margin-bottom:10px;
+}
+.ftr p{
+	font-size:0.875em;
+	margin-bottom:20px;
+}
+.ftr h3{
+	font-size:0.875em;
+	margin-bottom:5px;
+}
+.ftr h3 a{
+	color:#fff;
+	text-decoration:none;
+}
+.ftr h3 a:hover{
+	color:#fff;
+	text-decoration:underline;
+}
+.support1{
+	float:left;
+	width:60%;
+	margin-right:3%
+}
+.support2{
+	float:left;
+	width:37%;
+}
+.support1 a{
+	display:block;
+	margin-bottom:5px;
+	text-decoration:none;
+	color:#7e7f84;
+}
+.support2 a{
+	display:block;
+	margin-bottom:5px;
+	text-decoration:none;
+	color:#7e7f84;
+}
+.support1 a:hover{
+	text-decoration:underline;
+}
+.support2 a:hover{
+	text-decoration:underline;
+}
+.ftrmail{
+	width:100%;
+	text-transform:uppercase;
+	margin-bottom:15px;
+	font-size:0.75em;
+	padding:7px 20px;
+	box-sizing:border-box;
+	border:none;
+}
+.ftrtext{
+	width:100%;
+	text-transform:uppercase;
+	margin-bottom:15px;
+	font-size:0.75em;
+	padding:7px 20px;
+	box-sizing:border-box;
+	border:none;
+}
+.ftrsubmit{
+	text-transform:uppercase;
+	font-size:0.875em;
+	padding:7px 20px;
+	color:#fff;
+	background:#ff674f;
+	border:none;
+	cursor:pointer;
+}
 
 
 
