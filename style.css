@@ -108,8 +108,7 @@ img{
 }
 		.contakt-basket{
 			float:right;
-			}
-		
+}
 		.contakt-basket p{
 			float:left;
 			font-size:0.75em;
@@ -513,6 +512,41 @@ img{
 }
 	.block4-main article:first-child{
 		margin:0  2.5% 30px 2.5%;
+}
+@media screen and (max-width:440px){
+	.header-top{
+		padding:10px 0;
+}
+	.logo{
+		float:none;
+		text-align:center;
+		margin-bottom:10px;
+}
+	.contakt-basket{
+		float:none;
+		display:table;
+		margin:0 auto;
+}
+}
+@media screen and (max-width:360px){
+	.email-input{
+		float:none;
+		width:95%;
+		margin:0  2.5% 20px 2.5%;
+		box-sizing:border-box;
+}
+	.submit-input{
+		margin-left:2.5%;
+}
+	.my-slider ul li h2{
+		top:30px;
+		font-size:1em;
+}
+	.my-slider ul li p{
+		top:70px;
+}
+	.header-basket{
+		padding:5px 10px;
 }
 
 
