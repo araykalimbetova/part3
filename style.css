@@ -497,6 +497,23 @@ img{
 		margin:0 2.5% 30px 2.5%;
 }
 }
+@media screen and (max-width:480px){
+	.my-slider ul li h2{
+		top:50px;
+		font-size:1.275em;
+}
+	.my-slider ul li p{
+		top:100px;
+}
+	.block4-main article{
+		float:none;
+		width:95%;
+		margin:0  2.5% 30px 2.5%;
+		overflow:hidden;
+}
+	.block4-main article:first-child{
+		margin:0  2.5% 30px 2.5%;
+}
 
 
 
