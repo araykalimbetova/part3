@@ -172,10 +172,6 @@ img{
 }
 .my-slider{
 }
-	.my-slider ul li{
-		position:relative;
-		color:
-		}
 	.my-slider ul li {
 		position:relative;
 		color:#f45a40;
@@ -235,7 +231,7 @@ img{
 }
 .block4-main article{
 	float:left;
-	max-width:23%;
+	width:23%;
 	margin-left:2.5%;
 }
 .block4-main article:first-child{
@@ -437,6 +433,33 @@ img{
 	background:#ff674f;
 	border:none;
 	cursor:pointer;
+}
+@media screen and (max-width:900px){
+	.my-slider ul li h2{
+		top:150px;
+		font-size:3em;
+}
+	.my-slider ul li p{
+		top:255px;
+}
+	.block4-main article{
+		float:left;
+		width:45%;
+		margin:0  2.5% 30px 2.5%;
+}
+	.block4-main article:first-child{
+		margin:0  2.5% 30px 2.5%;
+}
+	.subscribe h2{
+		text-align:center;
+		float:none;
+		margin:0 0 20px 0;
+}
+	.subscribe-form{
+		float:none;
+		display:table;
+		margin:0 auto;
+}
 }
 
 
